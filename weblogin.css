@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(219, 217, 217); 
+}
+.login{
+    margin: auto;
+    display: flex;
+    gap: 8px;
+    
+}
+.login_form{
+    color: #212121;
+    border-radius: 2px;
+    height: 524px; ;
+    width: 675px;
+    border:1px solid;
+    margin:0 auto;
+    display: flex;
+
+}
+.form_text{
+   width: 40%;
+   background-color: #2874fe;
+   background-image: url(login_img_c4a81e.png);
+   background-repeat: no-repeat;
+   background-position:  center 85%;
+   color: white;
+   padding: 40px 33px;
+   font-size:15px ;
+   
+   
+}
+.header_text{
+   font-weight: 500;
+   font-size: 28px;
+}
+.all_text{
+    margin-top: 16px;
+    line-height:1.5 ;
+    color: white;
+    font-size: 18px;
+}
+.main_form{
+  width: 60%;
+  padding: 53px 35px 15px ;
+  background-color: white;
+}
+.input_inner{
+   position: relative;
+   margin-bottom:34px  ;
+}
+.text>input{
+    width:100%;
+    padding: 8px 10px 10px 0px;
+    background: white;
+    color: #212121; 
+    border:none;
+    outline:none;
+    border-bottom: 1px solid white;
+}
+.Label{
+   color:#878787; 
+   position: absolute;
+   font-weight: 400;
+   left: 0;
+   top: 0 ;
+   pointer-events: none;
+   transform: translateY(10px);
+   transition: 0.2s ease all ;
+}
+.text_in{
+   color: #878787; 
+   font-size: 12px;
+   font-weight:400 ;
+}
+a{
+    color: #2874fe;
+}
+.btn{
+    background: #fb641b ;
+    box-shadow:0 1px 2px 0 rgba(0, 0,0, 0.2) ;
+    border:none ;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color:#fff ;
+    height:40px ;
+    width: 100%;
+    margin-top: 16px;
+    cursor: pointer;
+}
+#create_account{
+    position: relative;
+    bottom: 32px;
+    left: 0;
+    right: 0;
+    margin-top: 30vh;
+    text-align: center;
+    color: #2874fe;
+    font-weight: 500;
+}
+.close{
+    position: relative;
+    cursor: pointer;
+    font-size:32px ;
+    color:#fff ;
+    line-height: 1;
+    top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
